@@ -1,7 +1,6 @@
 <?php
 
-$users = 'formation';
-$pass = 'PassPhp';
+$user = "formation";
+$pass = "PassPhp";
 
-$db = new PDO('mysql:host=localhost;dbname=phpdeux', $users, $pass);
-
+$db = new PDO('mysql:host=localhost;dbname=phpdeux', $user, $pass);
